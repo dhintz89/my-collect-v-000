@@ -7,3 +7,7 @@ def my_collect(array)
   end
   collection
 end
+
+my_collection(array) do |item|
+  item + 4
+end
